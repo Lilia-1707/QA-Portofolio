@@ -1,0 +1,14 @@
+Bug ID: BR01
+Title: Login with invalid password does not display correct error message
+Test Environment: Windows 11, Chrome 123, demo.opencart.com
+Precondition: User has a valid account.
+Steps to Reproduce:
+- Go to Login page.
+- Enter valid email.
+- Enter invalid password.
+- Click Login button.
+Expected Result: Error message “Invalid credentials” is displayed.
+Actual Result: Page reloads without visible error message.
+Severity: Major (user cannot understand why login fails).
+Priority: High.
+Attachments: Screenshot of Login page after entering invalid password.
