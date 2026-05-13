@@ -1,0 +1,58 @@
+TC01 – Login cu date valide
+Precondiție: Utilizatorul are cont valid.
+Pași: Accesează pagina Login → Introdu email valid → Introdu parolă validă → Click Login.
+Rezultat așteptat: Utilizatorul este autentificat și redirecționat la Dashboard.
+
+
+TC02 – Login cu parolă invalidă
+Precondiție: Utilizatorul are cont valid.
+Pași: Accesează pagina Login → Introdu email valid → Introdu parolă greșită → Click Login.
+Rezultat așteptat: Mesaj de eroare „Invalid credentials”.
+
+
+TC03 – Login cu câmpuri goale
+Precondiție: Nicio.
+Pași: Accesează pagina Login → Lasă email și parolă goale → Click Login.
+Rezultat așteptat: Mesaj de eroare „Email și Parola sunt obligatorii”.
+
+
+TC04 – Căutare produs existent
+Precondiție: Produsul există în catalog.
+Pași: Introdu „MacBook” în bara de căutare → Click Search.
+Rezultat așteptat: Lista de produse afișează „MacBook”.
+
+
+TC05 – Căutare produs inexistent
+Precondiție: Nicio.
+Pași: Introdu „XYZ123” în bara de căutare → Click Search.
+Rezultat așteptat: Mesaj „Nu s-au găsit produse”.
+
+
+TC06 – Adăugare produs în coș
+Precondiție: Utilizator autentificat.
+Pași: Caută „iPhone” → Click „Add to Cart”.
+Rezultat așteptat: Produsul apare în coșul de cumpărături.
+
+
+TC07 – Ștergere produs din coș
+Precondiție: Coșul conține un produs.
+Pași: Accesează Coșul → Click „Remove”.
+Rezultat așteptat: Produsul dispare din coș.
+
+
+TC08 – Checkout cu date valide
+Precondiție: Utilizator autentificat, coș cu produse.
+Pași: Accesează Checkout → Introdu date valide de livrare → Confirmă comanda.
+Rezultat așteptat: Comanda este plasată cu succes, apare pagina de confirmare.
+
+
+TC09 – Checkout cu date lipsă
+Precondiție: Utilizator autentificat, coș cu produse.
+Pași: Accesează Checkout → Lasă adresa necompletată → Confirmă comanda.
+Rezultat așteptat: Mesaj de eroare „Adresa este obligatorie”.
+
+
+TC10 – Logout
+Precondiție: Utilizator autentificat.
+Pași: Click pe butonul Logout.
+Rezultat așteptat: Utilizatorul este delogat și redirecționat la pagina principală.

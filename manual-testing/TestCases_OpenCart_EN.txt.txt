@@ -1,0 +1,58 @@
+TC01 – Login with valid credentials
+Precondition: User has valid account.
+Steps: Go to Login page → Enter valid email → Enter valid password → Click Login.
+Expected Result: User is logged in and redirected to Dashboard.
+
+
+TC02 – Login with invalid password
+Precondition: User has valid account.
+Steps: Go to Login page → Enter valid email → Enter wrong password → Click Login.
+Expected Result: Error message “Invalid credentials”.
+
+
+TC03 – Login with empty fields
+Precondition: None.
+Steps: Go to Login page → Leave email and password empty → Click Login.
+Expected Result: Error message “Email and Password required”.
+
+
+TC04 – Search existing product
+Precondition: Product exists in catalog.
+Steps: Enter “MacBook” in search bar → Click Search.
+Expected Result: Product list shows “MacBook”.
+
+
+TC05 – Search non-existing product
+Precondition: None.
+Steps: Enter “XYZ123” in search bar → Click Search.
+Expected Result: Message “No products found”.
+
+
+TC06 – Add product to cart
+Precondition: User logged in.
+Steps: Search “iPhone” → Click Add to Cart.
+Expected Result: Product appears in shopping cart.
+
+
+TC07 – Remove product from cart
+Precondition: Cart has product.
+Steps: Go to Cart → Click Remove.
+Expected Result: Product disappears from cart.
+
+
+TC08 – Checkout with valid data
+Precondition: User logged in, cart has item.
+Steps: Go to Checkout → Enter valid shipping info → Confirm order.
+Expected Result: Order placed successfully, confirmation page appears.
+
+
+TC09 – Checkout with missing data
+Precondition: User logged in, cart has item.
+Steps: Go to Checkout → Leave address empty → Confirm order.
+Expected Result: Error message “Address required”.
+
+
+TC10 – Logout
+Precondition: User logged in.
+Steps: Click Logout button.
+Expected Result: User is logged out and redirected to Home page.
