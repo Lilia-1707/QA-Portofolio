@@ -1,0 +1,23 @@
+Titlu: Test Plan – OpenCart Demo
+Scop: Validarea funcționalităților principale ale site-ului demo.opencart.com (login, căutare, coș, checkout).
+Mediu de testare: Windows 11, Chrome 123, demo.opencart.com.
+Funcționalități de testat:
+- Autentificare utilizator (login/logout).
+- Căutare produse.
+- Adăugare și ștergere produse din coș.
+- Proces de checkout.
+Tipuri de testare:
+- Testare funcțională (pozitivă și negativă).
+- Testare UI (validarea mesajelor de eroare și a elementelor vizibile).
+Resurse:
+- 1 tester QA manual.
+- Cont de utilizator valid pe demo.opencart.com.
+Riscuri:
+- Mesaje de eroare lipsă sau incorecte.
+- Checkout blocat din cauza datelor lipsă.
+Criterii de intrare:
+- Site-ul demo este disponibil.
+- Cont de utilizator creat.
+Criterii de ieșire:
+- Toate test cases executate.
+- Bug-urile raportate și documentate.

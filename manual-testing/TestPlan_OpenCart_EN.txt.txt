@@ -1,0 +1,23 @@
+Title: Test Plan – OpenCart Demo
+Objective: Validate core functionalities of demo.opencart.com (login, search, cart, checkout).
+Test Environment: Windows 11, Chrome 123, demo.opencart.com.
+Features to be tested:
+- User authentication (login/logout).
+- Product search.
+- Add/remove products from cart.
+- Checkout process.
+Types of testing:
+- Functional testing (positive and negative).
+- UI testing (error messages and visible elements).
+Resources:
+- 1 QA manual tester.
+- Valid user account on demo.opencart.com.
+Risks:
+- Missing or incorrect error messages.
+- Checkout blocked due to missing data.
+Entry criteria:
+- Demo site is available.
+- User account created.
+Exit criteria:
+- All test cases executed.
+- Bugs reported and documented.
